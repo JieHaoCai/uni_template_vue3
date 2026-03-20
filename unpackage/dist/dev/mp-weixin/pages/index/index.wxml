@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="{{a}}"></image><text>{{b}}</text><button bindtap="{{c}}">更改名称</button></view>

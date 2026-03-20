@@ -1,0 +1,30 @@
+{
+	"devDependencies": {
+		"@dcloudio/types": "^3.4.28",
+		"@types/vue": "^2.0.0",
+		"@types/wechat-miniprogram": "^3.4.9",
+		"@uni-helper/uni-app-types": "1.0.0-alpha.7",
+		"http-proxy-agent": "^7.0.2",
+		"mini-types": "^0.1.7",
+		"miniprogram-api-typings": "^4.1.2",
+		"sass": "1.63.2",
+		"sass-loader": "10.4.1"
+	},
+	"dependencies": {
+		"clipboard": "^2.0.11",
+		"dayjs": "^1.11.19"
+	},
+	"uni-app": {
+	    "scripts": {
+	      "mp-dingtalk": {
+	        "title": "钉钉小程序",
+	        "env": {
+	          "UNI_PLATFORM": "mp-alipay"
+	        },
+	        "define": {
+	          "MP-DINGTALK": true
+	        }
+	      }
+	    }
+	}
+}
